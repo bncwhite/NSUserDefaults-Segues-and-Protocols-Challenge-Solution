@@ -10,4 +10,11 @@
 
 @interface BWViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *label1;
+@property (strong, nonatomic) IBOutlet UILabel *label2;
+
+@property (nonatomic) NSString *passedUsername;
+@property (nonatomic) NSString *passedPassword;
+
+
 @end
